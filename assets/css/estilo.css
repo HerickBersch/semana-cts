@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 46px;
+    background-color: #e5e5e5;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+header{
+    background-image: url(../imagen/fundo_cabecalho.png);
+    width: 100%;
+    height: 571px; 
+    align-self: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+
+ .titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: rgba(255, 210, 0, 0.7);
+    width: 100%;
+    height: 157px;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 210, 0, 0.7);
+    width: 482px;
+    height: 138px;
+}
+
+
+
+
+
+
+ 
+ 
