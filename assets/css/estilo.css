@@ -13,9 +13,17 @@ nav{
     justify-content: center;
     
 }
+
 li{
     list-style-type: none;
     padding: 10px;
+}
+
+span { background-color: #E74C3C;
+color: #ffffff;
+padding: 8px;
+border-radius: 4px;
+
 }
 
 header{
@@ -48,6 +56,7 @@ header{
     background-color: rgba(255, 210, 0, 0.7);
     width: 100%;
     height: 157px;
+    font-size: 48px;
 }
 
 .subtitulo{
@@ -57,7 +66,94 @@ header{
     background-color: rgba(255, 210, 0, 0.7);
     width: 482px;
     height: 138px;
+    font-size:32px;
 }
+.programacao{
+    margin-right: 150px;
+    margin-left:150px; 
+    margin-bottom: 100px;
+}
+
+.descricao{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.programacao_titulo{
+    font-size: 22px;
+}
+
+
+.funcionario{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.texto{
+    margin-left: 30px;
+    
+}
+.data{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.texto_loc{
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left:150px; 
+   
+    
+}
+
+
+.mapa{
+    background-image: url(../imagen/mapa.png);
+    height: 559px;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+
+.localizacao_titulo{
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left:150px; 
+    font-size: 22px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #2D3748;
+    
+    
+
+
+}
+.realização_titulo{
+    margin-right: 150px;
+    margin-left:150px; 
+    color: #ffffff;
+    padding: 30px;
+    font-size: 22px;
+    
+    
+    
+}
+.imagem_footer{
+    display: flex;
+    align-items: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.espaco{
+    padding-right: 30px;
+}
+
+
+
+
 
 
 
